@@ -291,6 +291,10 @@
   width: 70%;
 }
 
+.Github-bar{
+  width: 75%;
+}
+
  .services-content {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
