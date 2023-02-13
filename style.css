@@ -279,7 +279,7 @@
  }
 
  .react-bar {
-   width: 50%;
+   width: 70%;
  }
 
 
@@ -289,10 +289,6 @@
 
 .MongoDB-bar{
   width: 70%;
-}
-
-.Github-bar{
-  width: 75%;
 }
 
  .services-content {
@@ -346,8 +342,32 @@
  }
 
  .services-box:hover a {
-   color: #8b8a8f;
+   color: #fff;
  }
+
+ 
+  /* Project Section */
+.certi-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.certi-1 img{
+  width: 300px;
+  height: 200px;
+  border: 2px solid #ff3d0036;
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px #00000042;
+  cursor: pointer;
+  margin: 10px;
+  transition: 350ms;
+}
+.certi-1 img:hover{
+  filter:invert(1);
+  transform:scale(1.06);
+}
+ /* End OF Project */
 
  /* Certifaction Section */
 .certi{
