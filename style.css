@@ -348,12 +348,15 @@
  
   /* Project Section */
 .certi-1{
+  text-align: center;
+  box-sizing: border-box;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   flex-wrap: wrap;
 }
 .certi-1 img{
+  box-sizing: border-box;
   width: 300px;
   height: 200px;
   border: 2px solid #ff3d0036;
@@ -364,9 +367,11 @@
   transition: 350ms;
 }
 .certi-1 img:hover{
+  box-sizing: border-box;
   filter:invert(1);
   transform:scale(1.06);
 }
+
  /* End OF Project */
 
  /* Certifaction Section */
@@ -404,8 +409,7 @@
    width: 650px;
  }
 
- form input,
- textarea {
+ form input, textarea {
    padding: 15px;
    border-radius: 0.5rem;
    width: 100%;
