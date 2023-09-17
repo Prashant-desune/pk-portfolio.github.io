@@ -186,7 +186,10 @@ header.shadow {
 .about-img img {
   width: 80%;
   border-radius: 0.5rem;
+  height: 115%;
+  margin-top: -50px; 
 }
+
 
 .about-text p {
   font-size: var(--p-font);
@@ -264,6 +267,24 @@ span {
   width: 85%;
 }
 
+.R-bar {
+  width: 75%;
+}
+
+.Tableau-bar {
+  width: 70%;
+}
+
+.Excel-bar {
+  width: 55%;
+}
+
+
+.Power-bar {
+  width: 45%;
+}
+
+
 .html-bar {
   width: 94%;
 }
@@ -286,6 +307,10 @@ span {
 
 .MongoDB-bar {
   width: 70%;
+}
+
+.Figma-bar {
+  width: 45%;
 }
 
 .services-content {
